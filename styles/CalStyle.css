@@ -1,0 +1,127 @@
+﻿
+
+span.calStyle table {
+	border-collapse: separate;
+	z-index: 4000;
+	position: absolute;
+	width: 260px;
+	border-spacing: 1px;
+	background-color:Black;
+}
+
+/*Date descriptor */
+span.calStyle table th {
+	text-align: center;
+	background-color: White;
+	color: Blue;
+	background-image: url(/web/20211028132328im_/https://floridamao.org/blankbg.gif);
+}
+
+
+/* Day cell Styles */
+
+span.calStyle table td.onDay {
+	text-align: center;
+	background-color:White;
+	border: solid 2px White;
+	cursor: pointer;
+	width: 14%;
+}
+
+span.calStyle table td.onDay:hover {
+	background-color: Black;
+	background-image: url(/web/20211028132328im_/https://floridamao.org/blankbg.gif);
+	color: Yellow;
+}
+
+span.calStyle table td.offDay {
+	text-align: center;
+	background-color: #E9E5E0;
+	background-image: url(/web/20211028132328im_/https://floridamao.org/blankbg.gif);
+	cursor: pointer;
+	border: 2px White;
+}
+
+span.calStyle table td.offDay:hover {
+	background-color: Black;
+	background-image: url(/web/20211028132328im_/https://floridamao.org/blankbg.gif);
+	color: Yellow;
+}
+
+span.calStyle table td span.monthAbbr {
+	font-size: x-small;
+}
+
+span.calStyle table td span.dateAbbr {
+	font-size: small;
+}
+
+
+/*Day headings*/
+span.calStyle table td.dayHeadings {
+	background-color: White;
+	background-image: url(/web/20211028132328im_/https://floridamao.org/blankbg.gif);
+	cursor: default;
+	text-align: center;
+	font-weight: bold;
+	font-size: smaller;
+	color: Red;
+}
+
+/*The month header*/
+span.calStyle table td.monthName {
+	font-size: smaller;
+	font-weight: bold;
+	background-color: Green;
+	color: White;
+	border: solid black 2px;
+	background-image: url(/web/20211028132328im_/https://floridamao.org/blankbg.gif);
+	cursor: default;
+	text-align: center;
+}
+
+/*The navigation cells */
+
+span.calStyle table td.navigator {
+	font-weight: bold;
+	text-align: center;
+	background-color: Green;
+	color: White;
+	cursor: pointer;
+	background-image: url(/web/20211028132328im_/https://floridamao.org/blankbg.gif);
+}
+
+span.calStyle img {
+	cursor: pointer;
+}
+
+/*The date talker */
+
+span.dateTalker {
+	font-size: small;
+	color: Gray;
+	text-align: center;
+}
+
+/*
+     FILE ARCHIVED ON 13:23:28 Oct 28, 2021 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 12:07:47 Jun 20, 2022.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 1400.397
+  exclusion.robots: 0.18
+  exclusion.robots.policy: 0.165
+  cdx.remote: 0.115
+  esindex: 0.015
+  LoadShardBlock: 113.108 (3)
+  PetaboxLoader3.datanode: 117.653 (6)
+  CDXLines.iter: 14.175 (3)
+  load_resource: 256.694 (2)
+  PetaboxLoader3.resolve: 159.914 (2)
+  loaddict: 44.817
+*/

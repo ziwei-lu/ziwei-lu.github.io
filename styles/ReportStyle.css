@@ -1,0 +1,129 @@
+SPAN.TestName
+{
+	font-size: x-large;
+	text-decoration: underline;
+	width: 100%;
+	text-align: center;
+}
+SPAN.ReportHeader
+{
+	font-size: xx-large;
+	color: red;
+}
+SPAN.QuestionHeader
+{
+	font-size: x-large;
+	text-decoration: underline;
+}
+SPAN.theanswer
+{
+	font-size: x-large;
+	color: blue;
+}
+TABLE
+{
+	text-align: center;
+	width: 95%;
+	border-collapse: collapse;
+	margin-top: 30px;
+}
+TD
+{
+	border-right: black 1px solid;
+	border-top: black 1px solid;
+	border-left: black 1px solid;
+	border-bottom: black 1px solid;
+}
+TABLE.bare
+{
+	border-right: medium none;
+	border-top: medium none;
+	border-left: medium none;
+	border-bottom: medium none;
+		width:auto;
+}
+TABLE.bare TD
+{
+	border-right: medium none;
+	border-top: medium none;
+	border-left: medium none;
+	border-bottom: medium none;
+}
+TD.emph
+{
+	font-weight: bold;
+	text-decoration: underline;
+	padding-left:40px;
+	padding-right:5px;
+}
+TD.blankcount
+{
+	color: navy;
+	text-align: right;
+}
+TD.rightcount
+{
+	color: green;
+	text-align: right;
+}
+TD.wrongcount
+{
+	color: red;
+	text-align: right;
+}
+
+TD.nobor{
+ border-top: none;
+ border-bottom: none;
+ border-left:none;
+ border-right:none;
+}
+
+TD.R
+{
+	color: green;
+}
+TD.W
+{
+	color: red;
+}
+TD.B
+{
+	color: navy;
+}
+TABLE TR.H TD
+{
+	font-weight: bold;
+	color: #3708F8;
+	border-top: none;
+}
+TABLE TR.A TD
+{
+	background-color: #E6EEF8;
+}
+TD.AltCol
+{
+	border-left: black 3px solid;
+}
+
+/*
+     FILE ARCHIVED ON 07:02:38 Oct 27, 2010 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 22:56:25 Jun 21, 2022.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 227.665
+  exclusion.robots: 0.067
+  exclusion.robots.policy: 0.061
+  cdx.remote: 0.044
+  esindex: 0.007
+  LoadShardBlock: 62.011 (3)
+  PetaboxLoader3.datanode: 63.849 (4)
+  CDXLines.iter: 13.062 (3)
+  load_resource: 431.569
+  PetaboxLoader3.resolve: 389.252
+*/

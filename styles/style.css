@@ -1,0 +1,390 @@
+input
+{
+	cursor: pointer;
+}
+
+button
+{
+	cursor: pointer;
+}
+
+table
+{
+	z-index: 10;
+}
+
+.actionButton
+{
+	background-color: #39A8F1;
+	border-width: 2px;
+}
+
+body
+{
+	background-image: url("background1.jpg");
+	background-attachment: fixed;
+}
+
+
+/**********************************************************************************/
+/**************       Navigation Bar Styles                ************************/
+/**********************************************************************************/
+.navbar {
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ padding: 15px;
+ background-color: purple;
+ color: #ffffff;
+}
+
+.nav-links a {
+ color: #ffffff;
+}
+
+/* LOGO */
+.logo {
+ font-size: 32px;
+}
+
+/* NAVBAR MENU */
+.menu {
+ display: flex;
+ gap: 1em;
+ font-size: 18px;
+}
+
+.menu li:hover {
+ background-color: purple;
+ border-radius: 5px;
+ transition: 0.3s ease;
+}
+
+.menu li {
+ padding: 5px 14px;
+}
+
+/* DROPDOWN MENU */
+.services {
+ position: relative; 
+}
+
+.dropdown {
+ background-color: #63A0C7;
+ font-size: 14px;
+ padding: 1em 0;
+ position: absolute; /*WITH RESPECT TO PARENT*/
+ display: none;
+ border-radius: 4px;
+ top: 25px;
+}
+
+.dropdown li + li {
+ margin-top: 10px;
+}
+
+.dropdown li {
+ padding: 0.5em 1em;
+ width: 8em;
+ text-align: center;
+}
+
+.dropdown li:hover {
+ background-color: purple;
+}
+
+.services:hover .dropdown {
+ display: block;
+}
+
+/**********************************************************************************/
+/**************    Main Div Styles     ****************************************/
+/**********************************************************************************/
+
+
+div.BannerDiv
+{
+	width: 100%;
+	margin-left: 0px;
+	margin-top: 1px;
+	position: absolute;
+}
+
+div.BannerDiv table
+{
+	width: 98%;
+	border-collapse: collapse;
+	border: 1px solid Blue;
+}
+
+div.BannerDiv td
+{
+	background-image: url(images/plainWhite.jpg);
+	background-repeat: repeat;
+	z-index: 1000;
+}
+
+div.BannerDiv td.BannerTitle
+{
+	text-align: center;
+	color: black;
+	font-family: cursive;
+	font-size: xx-large;
+}
+
+/**********************************************************************************/
+/**************    Executive Board Styles ****************************************/
+/**********************************************************************************/
+
+table.ExecBoard
+{
+	
+	text-align: center;
+	border-collapse: collapse;
+	width: 100%;
+}
+
+table.ExecBoard th
+{
+	background-color: #93D0F7;
+	border: solid 2px #AD74E6;
+}
+
+table.ExecBoard td
+{
+	border: solid 2px #AD74E6;
+}
+
+/**********************************************************************************/
+/**************    Competition Page Styles ****************************************/
+/**********************************************************************************/
+
+span.CompetitionName
+{
+	font: large Times New Roman;
+	color: Purple;
+	float:left;
+		font-weight: bold;
+}
+
+span.CompetitionDate
+{
+	font: large Times New Roman;
+	font-weight: bold;
+	color: Green;
+	text-indent: 20px;
+	float:right;
+	margin-right:30px;
+}
+
+
+/**********************************************************************************/
+/**************    Downloads Page Styles  ****************************************/
+/**********************************************************************************/
+
+table.Downloads td
+{
+	padding:4px;
+}
+
+/**********************************************************************************/
+/**************   Test Bank Styles ****************************************/
+/**********************************************************************************/
+table.TestBankTable
+{
+	empty-cells: hide;
+	border-collapse: collapse;
+	text-align: center;
+}
+
+
+table.TestBankTable tr
+{
+	border: solid 1px Green;
+}
+table.TestBankTable tr.A
+{
+	background-color: #AAAAAA;
+}
+table.TestBankTable th
+{
+	background-color: Aqua;
+}
+
+table.TestBankTable td
+{
+	border: groove 2px Green;
+	padding-left:10px;
+	padding-right:10px;
+}
+
+table.TestBankTable td.ico
+{
+	font-size: x-small;
+	font-weight: bold;
+}
+table.TestBankTable
+{
+    font-family:Arial;
+}
+table.TestBankTable .testCellLbl
+{
+    font-size:x-small;
+}
+
+/**********************************************************************************/
+/**************   Treasurer Table Styles ****************************************/
+/**********************************************************************************/
+
+table.TreasurerTable
+{
+	width: 90%;
+	border-collapse: collapse;
+}
+
+table.TreasurerTable td
+{
+	border: 1px solid gray;
+}
+
+table.TreasurerTable tr.A
+{
+	background-color: #D4E5F6;
+}
+
+table.TreasurerTable tr.D
+{
+	background-color: #FDE0E0;
+}
+
+/**********************************************************************************/
+/**************      Enrollment List Styles                ************************/
+/**********************************************************************************/
+
+table.EnrollList
+{
+width:100%
+}
+table.EnrollList td
+{
+	border-style: groove;
+	text-align: center;
+}
+
+table.EnrollList tr
+{
+	background-color: White;
+}
+
+table.EnrollList tr.A
+{
+	background-color: #D4E5F6;
+}
+
+table.EnrollList thead td
+{
+	border-bottom: 2px solid black;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+}
+
+/**********************************************************************************/
+/**************      School Edit Styles                ************************/
+/**********************************************************************************/
+
+table.SchoolEdit
+{
+}
+
+table.SchoolEdit td.L
+{
+	text-align: right;
+	font-weight: bolder;
+}
+
+
+
+/*********************************************************************************/
+/**************    Reports Styles  ****************************************/
+/*********************************************************************************/
+
+
+span.ResultsCompetitionTitle {
+    color:green;
+    font-weight:bold;
+}
+
+table.Results td{
+text-align:left;
+   padding-left:20px;
+}
+
+table.Results{
+  width: 90%;
+}
+table.Results td.H {
+    font-weight: bold;
+    text-align: left;
+   padding-left:10px;
+}
+
+/**********************************************************************************/
+/**************      Student Enrollment List Styles                ************************/
+/**********************************************************************************/
+
+table.StuEnroll
+{
+width:100%;
+border-collapse:collapse;
+	border:1px solid black;
+}
+table.StuEnroll td
+{
+	text-align: center;
+	border-top:1px solid black;
+	border-bottom:1px solid black;
+}
+
+table.StuEnroll tr
+{
+	background-color: White;
+}
+
+table.StuEnroll tr.A
+{
+	background-color: #D4E5F6;
+}
+
+table.StuEnroll thead td
+{
+	border-bottom: 2px solid black;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+}
+
+/**********************************************************************************/
+/**************      Summary Table Styles                ************************/
+/**********************************************************************************/
+
+table.SummaryTable
+{border-collapse:collapse;
+     margin-top:15px;
+}
+table.SummaryTable td
+{
+  padding:4px;
+    border: 1px solid black;
+    margin:2px;
+}
+
+.PHONE input 
+{
+ width:40px;   
+}
+
+.RXMLPhone input 
+{
+ width:40px;   
+}
